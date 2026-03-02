@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 
-type Category = 'All' | 'YouTube Thumbnails' | 'Posters' | 'Social Media' | 'Graphic Design';
+type Category = 'All' | 'YouTube Thumbnails' | 'Posters' | 'Social Media' | 'Graphic Design' | 'Instagram Posts';
 
 interface Project {
   title: string;
@@ -99,49 +99,49 @@ const projects: Project[] = [
   },
   {
     title: 'Instagram Post — Food Branding',
-    category: ['Social Media', 'Graphic Design'],
+    category: ['Instagram Posts', 'Social Media', 'Graphic Design'],
     year: '2026',
     image: '/instagram/post-1.png',
     description: 'Elegant social media layout for food industry branding',
   },
   {
     title: 'Instagram Post — Lifestyle Layout',
-    category: ['Social Media', 'Graphic Design'],
+    category: ['Instagram Posts', 'Social Media', 'Graphic Design'],
     year: '2026',
     image: '/instagram/post-2.png',
     description: 'Modern lifestyle-focused social media design',
   },
   {
     title: 'Instagram Post — Creative Showcase',
-    category: ['Social Media', 'Graphic Design'],
+    category: ['Instagram Posts', 'Social Media', 'Graphic Design'],
     year: '2025',
     image: '/instagram/post-3.png',
     description: 'Dynamic grid layout for creative portfolio showcase',
   },
   {
     title: 'Digital Marketing Graphic',
-    category: ['Social Media', 'Graphic Design'],
+    category: ['Instagram Posts', 'Social Media', 'Graphic Design'],
     year: '2026',
     image: '/instagram/post-4.jpg',
     description: 'High-conversion marketing visual for Instagram',
   },
   {
     title: 'Campaign Social Visual',
-    category: ['Social Media', 'Graphic Design'],
+    category: ['Instagram Posts', 'Social Media', 'Graphic Design'],
     year: '2026',
     image: '/instagram/post-5.jpg',
     description: 'Brand-aligned social media campaign design',
   },
   {
     title: 'Product Design — Chocolate Shake',
-    category: ['Graphic Design', 'Social Media'],
+    category: ['Instagram Posts', 'Graphic Design', 'Social Media'],
     year: '2026',
     image: '/instagram/chocolate-shake.png',
     description: 'Vibrant product visualization for digital ads',
   },
   {
     title: 'Promotion Graphic — Chole Bhature',
-    category: ['Graphic Design', 'Social Media'],
+    category: ['Instagram Posts', 'Graphic Design', 'Social Media'],
     year: '2026',
     image: '/instagram/chole-bhature.png',
     description: 'Appetizing food promotion design for social platforms',
@@ -152,6 +152,7 @@ const categories: Category[] = [
   'All',
   'YouTube Thumbnails',
   'Posters',
+  'Instagram Posts',
   'Social Media',
   'Graphic Design',
 ];
